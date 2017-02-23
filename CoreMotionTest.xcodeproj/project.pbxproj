@@ -13,6 +13,7 @@
 		3A3349571E5ED05C00CCEF19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A3349551E5ED05C00CCEF19 /* Main.storyboard */; };
 		3A3349591E5ED05C00CCEF19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A3349581E5ED05C00CCEF19 /* Assets.xcassets */; };
 		3A33495C1E5ED05C00CCEF19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A33495A1E5ED05C00CCEF19 /* LaunchScreen.storyboard */; };
+		3A3349651E5ED0D500CCEF19 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A3349641E5ED0D500CCEF19 /* CoreMotion.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		3A3349581E5ED05C00CCEF19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A33495B1E5ED05C00CCEF19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A33495D1E5ED05C00CCEF19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A3349641E5ED0D500CCEF19 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A3349651E5ED0D500CCEF19 /* CoreMotion.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +47,7 @@
 			children = (
 				3A33494B1E5ED05C00CCEF19 /* CoreMotionTest */,
 				3A33494A1E5ED05C00CCEF19 /* Products */,
+				3A3349631E5ED0D500CCEF19 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,6 +81,14 @@
 				3A33494D1E5ED05C00CCEF19 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3A3349631E5ED0D500CCEF19 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A3349641E5ED0D500CCEF19 /* CoreMotion.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,6 +287,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = YJRKEB8VKU;
 				INFOPLIST_FILE = CoreMotionTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Yioks.CoreMotionTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -287,6 +300,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = YJRKEB8VKU;
 				INFOPLIST_FILE = CoreMotionTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Yioks.CoreMotionTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
